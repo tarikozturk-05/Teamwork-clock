@@ -37,33 +37,33 @@
 
 
 
-//  function showTime(){
-//     var date=new Date();
-//     var time=date.toLocaleTimeString();
+ function showTime(){
+    var date=new Date();
+    var time=date.toLocaleTimeString();
     
-//    let t=document.querySelector(".main");
-//    t.innerText=time;
-// }
-// setInterval(showTime,1000)
-// showTime()
-// console.log(new Date());
+   let t=document.querySelector(".main");
+   t.innerText=time;
+}
+setInterval(showTime,1000)
+showTime()
+console.log(new Date());
 
 
 //? 3.yolll*********
-function showTime(){
-    var date=new Date();
-    var h=date.getHours();
-    var m=date.getMinutes();
-    var s=date.getSeconds();
-     var x="AM";
-if(h == 0){
-    h = 12;
-}
-if(h > 12){
-    h = h - 12
-    x="PM"}
-h=h<10 ? "0"+ h : h;
-m=m<10 ? "0"+ m : m;
-s=s<10 ? "0"+ s : s;
-let time=document.querySelector(".main");
-time.innerText=`${h}:${m}:${s}  ${x}`;
+// function showTime(){
+//     var date=new Date();
+//     var h=date.getHours();
+//     var m=date.getMinutes();
+//     var s=date.getSeconds();
+//      var x="AM";
+// if(h == 0){
+//     h = 12;
+// }
+// if(h > 12){
+//     h = h - 12
+//     x="PM"}
+// h=h<10 ? "0"+ h : h;
+// m=m<10 ? "0"+ m : m;
+// s=s<10 ? "0"+ s : s;
+// let time=document.querySelector(".main");
+// time.innerText=`${h}:${m}:${s}  ${x}`;
